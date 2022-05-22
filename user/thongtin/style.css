@@ -1,0 +1,70 @@
+.tttk{
+    display: flex;
+    justify-content: center;
+    background: white;
+}
+.tttk p{
+    color:rgb(29, 21, 151);
+    font-size: 30px;
+    padding-top: 25px;
+    font-weight: bold;
+}
+.tt{
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.thongtin{
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.label{
+    font-size: 25px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    color: black;
+}
+.input{
+    margin-left: 20px;
+    font-size: 25px;
+    padding-left: 10px;
+    color: black;
+    padding-bottom: 25px;
+}
+.input-thongtin{
+    height: 40px;
+    border: none;
+    border-bottom: 2px solid rgb(0, 16, 156);
+    width: 400px;
+    margin-left: 28px;
+    font-size: 25px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+.input-thongtin::placeholder{
+    font-size: 20px;
+    color: darkgray;
+    font-style: italic;
+}
+#baoloi{
+    color: red;
+    font-size: 18px;
+}
+.capnhat{
+    font-size: 20px;
+    margin-left: 325px;
+    border-radius: 15px;
+    border: none;
+    color: blue;
+    font-weight: bold;
+    padding: 10px 10px 10px 10px;
+    background: blanchedalmond;
+}
+.capnhat:hover{
+    color:mediumvioletred;
+    cursor: pointer;
+}

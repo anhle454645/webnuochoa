@@ -1,0 +1,291 @@
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+
+/* Phần header */
+.content {
+    padding: 16px;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+.head1 {
+    display: flex;
+    height: 70px;
+    width: 100%;
+}
+.head1 .lienket {
+    width: 20%;
+    padding-top: 10px;
+    padding-left: 50px;
+    display: flex;
+    font-size: 20px;
+}
+.head1 .lienket li a{
+    padding: 20px 15px;
+}
+.head1 .logo {
+    width: 50%;
+    margin-top: 7px;
+    padding-left: 450px;
+}
+.head1 .others {
+    width: 30%;
+    padding-left: 80px;
+    display: flex;
+    font-size: 20px;
+}
+.head1 .others li {
+    padding: 20px 30px;
+}
+.head1 .others .login {
+    margin-top: 21px;
+    margin-left: 230px;
+    color: #551A8B;
+}
+/* rê chuột là có */
+.head1 .others .login:hover .user1 {
+    display: block;
+}
+.head1 .others .login .user1 {
+    font-size: 16px;
+    font-weight: 0px;
+    /* ẩn  */
+    position: absolute;     
+    display: none;
+    background-color: #e8e8e8;
+    border-radius: 20px;
+    width: 115px;
+    height: 60px;
+}
+.head1 .others .login .user1 a {
+    color: rgb(46, 45, 45);
+}
+.head1 .others .login .user1 .user11 {
+    margin: -12px -20px;
+}
+.head1 .others .login .user1 .user12 {
+    margin-top: -30px;
+    margin-left: -20px;
+}
+.head1 .others .login .user1 li>a:hover {
+    color: #e9443e;
+}
+.head1 .others .login .user21 p {
+    margin-left: -10px;
+    margin-top: -1px;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(46, 45, 45);
+}
+
+.head1 .others .user2 {
+    display: flex;
+}
+.head1 .others .user2 .user21 {
+    margin-left: 230px;
+    margin-top: 19px;
+}
+.head1 .others .user2 .user21 p{
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(46, 45, 45);
+}
+.head1 .others .user2 .user21:hover ul{
+    display: block;
+}
+.head1 .others .user2 .user21 ul{
+    font-size: 16px;
+    font-weight: 0px;
+    position: absolute;
+    display: none;
+    background-color: #e8e8e8;
+    border-radius: 20px;
+    width: 170px;
+    height: 95px;
+}
+.head1 .others .user2 .user21 .u1 {
+    margin: -12px -12px;
+}
+.head1 .others .user2 .user21 .u2 {
+    margin: -30px -12px;
+}
+.head1 .others .user2 .user21 li {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: -10px;
+    margin-left: -5px;
+}
+.head1 .others .user2 .user21 a {
+    color: rgb(46, 45, 45);
+} 
+.head1 .others .user2 .user21 a:hover {
+    color: #e9443e;
+} 
+.head1 .others .user2 .user22 a{
+    margin-left: 25px;
+    margin-top: 19px;
+}
+.head1 .others .search-box {
+    position: absolute;
+    margin-top: 14px;
+    background: #e8e8e8;
+    height: 35px;
+    border-radius: 40px;
+    padding: 1px 6px;
+}
+.head1 .others .search-btn {
+    color: #000;
+    margin-top: 6px;
+    height: 20px;
+    display: flex;
+} 
+.head1 .others .search-txt {
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: #000;
+    font-size: 15px;
+    line-height: 30px;
+}
+
+.head2 {
+    background-color: #D5A6E6;
+    justify-content: center;
+    display: flex;
+    height: 80px; 
+}
+.head2 .menu {
+    font-size: 20px;
+    display: flex;
+}
+.head2 .menu>li  {
+    padding: 25px 40px;
+}
+.head2 li a {
+    color: #fff;
+}
+.head2 li a:hover {
+    color: #e8e8e8;
+}
+#soLuongSP {
+    margin-top: -40px;
+    margin-left: 38px;
+    background: #da4545;
+    font-size: 14px;
+    padding: 6px 6px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;    
+}
+/* Phần footer */
+.nut {    
+    font-size: 18px; 
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;        
+}
+.chantrang {
+    background-color: #e8e8e8;
+    width: 100%;
+    height: 300px; 
+    display: flex;
+}
+.chantrang .nut:hover {
+    color: #D5A6E6;
+}
+.chantrang .chan1 {
+    margin-top: 70px;
+    margin-left: 120px;
+}
+.chantrang .chan2 {
+    display: flex;
+    font-size: 25px;
+    color: #252525;
+    margin-top: 20px;
+}
+.chantrang .chan2 .chan21 {
+    margin-left: 150px;
+}
+.chantrang .chan2 .chan22 {
+    margin-left: 245px;
+}
+.chantrang .chan2 .chan23 {
+    margin-left: 220px;
+}
+.chantrang .chan2 .chan24 {
+    margin-left: 200px;
+}
+.bac1 {
+    margin-top: 82px;   
+}
+.bac2 {
+    margin-top: 137px;   
+}
+.bac3 {
+    margin-top: 192px;   
+}
+.bac4 {
+    margin-top: 247px;   
+}
+.website {
+    margin-left: -1091px;
+}
+.dieukhoan {
+    padding-left: 288px;
+}
+.chinhsach {
+    padding-left: 187px;
+}
+.timkiem {
+    padding-left: 174px;
+}
+.page {
+    margin-left: -1093px;
+}
+.muahang {
+    margin-left: 309px;
+}
+.dangnhap {
+    margin-left: 491px;
+}
+.sanPham {
+    margin-left: -1108px;
+}
+.dangky {
+    margin-left: 938px;
+}
+.hotline {
+    margin-left: -1107px;
+}
+.giohang {
+    margin-left: 961px;
+}
+#backtop {
+    width: 50px;
+    height: 50px;
+    background: #a6e6b6;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 25px;
+    right: 20px;
+    cursor: pointer;
+}

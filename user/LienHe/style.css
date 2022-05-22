@@ -1,0 +1,52 @@
+/* contact */.contact-title{
+    font-weight: 400;
+    font-size: 20px;
+}
+    .map iframe{
+    float: left;
+    width: 100%;
+    border-radius: 10px;
+}
+.contact-information, .ContactForm{
+    border: 1px solid #E1E1E1;
+    border-radius: 10px;
+    float: left;
+    margin: 15px 0;
+    padding: 30px;
+    width: 100%;
+}
+.contact-information h5, .ContactForm h5{
+    font-size: 20px;
+        font-weight: 400;
+        margin-bottom: 20px;
+    }
+    .contact-information .icon{
+        float: left;
+        width: 30px;
+        height: 30px;
+        padding: 5px;
+        border: 1px solid #cccccc;
+        border-radius: 7px;
+        text-align: center;
+        vertical-align: middle;
+        margin: 5px 10px 10px 0
+    } 
+    label{
+        display: block;
+        margin-bottom: 8px;
+    }
+    .inputfild{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+/* contact */
+    .inputfild, input[type="email"], textarea{
+        background: #fff;
+        padding: 8px 15px;
+        border: 1px solid #cccccc;
+        font-size: 14px;
+        border-radius: 10px;
+    }input:focus[type="text"], input:focus[type="email"], textarea:focus{border-color: #ff8e87;outline: none;}
+/* ALL */.container_fullwidth{margin: 0;padding: 0;width: 100%;padding-top: 30px;padding-bottom: 20px;}.container{width: 1400px;}p{font-size:15px}
+/* ALL *//* button */.button:hover, button:hover{border: 1px solid #fe5252;color: #fe5252;}.button-send{background: #fff;padding: 10px 20px;border: 1px solid #cccccc;font-size: 14px;border-radius: 10px;
+cursor: pointer;}

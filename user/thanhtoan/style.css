@@ -1,0 +1,89 @@
+.bocuc{
+   
+    background: white;
+    display: flex;
+    justify-content: center;
+}
+.left{
+    margin-right: 200px;
+}
+.tieudiem{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(204, 144, 65);
+    margin-top:40px;
+    margin-bottom: 20px;
+}
+.thanhtoan{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(204, 144, 65);
+    margin-top:40px;
+    margin-bottom: 20px;
+}
+.label{
+    font-size:20px;
+    padding-bottom: 15px;
+
+}
+.inputlabel{
+    padding-left: 50px;
+    padding-bottom: 15px;
+    font-size: 22px;
+}
+.input{
+    padding-left: 40px;
+    padding-bottom: 15px;
+}
+.input-thongtin{
+    border: 1px solid rgb(187, 117, 25);
+   height: 40px;
+   width: 300px;
+   font-size: 20px;
+   padding-left: 15px;
+   border-radius: 12px;
+}
+.input-thongtin::placeholder{
+    font-size: 15px;
+}
+#thongbaoloi{
+    font-size:20px;
+    color:red;
+    margin-bottom: 50px;
+}
+
+.tien{
+    padding-left: 50px;
+    padding-bottom: 15px;
+    font-size: 22px;
+}
+#thongbao{
+    font-size:20px;
+    color:red;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+}
+#dathang{
+    margin-left: 50px;
+    background: rgb(233, 195, 112);
+    color: brown;
+    font-weight: bold;
+    padding:5px 15px 5px 15px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+#dathang:hover{
+    color:rgb(3, 0, 184);
+}
+#quaylai:hover{
+    color:rgb(91, 143, 255);
+}
+#quaylai{
+    color: rgb(0, 180, 39);
+    font-weight: bold;
+    padding:5px 10px 5px 10px;
+    font-size: 20px;
+    border-radius: 10px;
+}

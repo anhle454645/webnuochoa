@@ -1,0 +1,50 @@
+/* điều khoản 1 */
+.tieude {
+    margin-top: 30px;
+    display: flex;
+}
+.tieude .tieude1 {
+    font-size: 18px;
+    margin-left: 800px;
+}
+.tieude .tieude1 a {
+    color: #a6a6a6;
+}
+.tieude .tieude2 {
+    margin-left: 10px;
+    color: #a6a6a6;
+}
+.tieude .tieude3 p {
+    text-transform: uppercase;
+    color: #000;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 18px;
+    margin-left: 10px;
+}
+.vien1 {
+    margin-top: 30px;
+    margin-left: 50px;
+    width: 1684px;
+}
+/* điều khoản 2 */
+.tieudiem {
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+.bocuc {
+    font-size: 18px;
+    text-align: justify;
+    margin-left: 50px;
+    width: 1684px;
+    margin-top: 20px;
+}
+.head {
+    font-weight: bold;
+}
+.khoangtrong {
+    margin-bottom: 40px;
+}

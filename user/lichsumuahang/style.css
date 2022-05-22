@@ -1,0 +1,70 @@
+.lblsGD{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.lichsuGD{
+    min-height: 300px;
+    display: block;
+}
+.lblsGD p{
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    color:rgb(0, 0, 0);
+}
+.tblichsu{
+    display: flex;
+    justify-content: center;
+}
+.header{
+    padding: 10px 10px 10px 10px;
+    display: flex;
+    align-items: center;
+}
+.header th{
+    font-size: 20px;
+}
+.lichsu{
+    display: flex;
+}
+.lichsu .giaodich {
+    height: 50px;
+}
+.giaodich th{
+    font-size: 22px;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+#ngayban{
+    width: 150px;
+}
+#tenKH{
+   width: 300px;
+}
+#soDienThoai{
+   width: 200px;
+}
+#tenSanPham{
+    width: 350px;
+}
+#donGia{
+    width: 200px;
+}
+#soLuongMua{
+    width: 100px;
+}
+#thanhTien{
+    width: 300px;
+}
+.tieude{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid tomato;
+}
+.tieude p{
+    font-size: 30px;
+    color: burlywood;
+}
